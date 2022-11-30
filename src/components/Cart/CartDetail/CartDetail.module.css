@@ -1,0 +1,27 @@
+.main {
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  bottom: 0;
+  background-color: #fff;
+  width: 750rem;
+  padding-bottom: 120rem;
+  border-top-left-radius: 40rem;
+  border-top-right-radius: 40rem;
+  max-height: 1100rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20rem;
+}
+.title {
+  font-weight: bold;
+  font-size: 35rem;
+}
+.del {
+  color: #aaa;
+}
+.content {
+  overflow: auto;
+}

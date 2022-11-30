@@ -1,0 +1,25 @@
+.box {
+  display: flex;
+  align-items: center;
+}
+.sub,
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  background-color: #FCBF49;
+  font-size: 40rem;
+  padding: 0;
+}
+.sub {
+  background-color: white;
+  border: 1px solid #FCBF49;
+}
+.count {
+  margin: 0 20rem;
+  font-size: 30rem;
+}

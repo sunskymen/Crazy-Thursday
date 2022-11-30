@@ -1,0 +1,69 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 30rem;
+  height: 80rem;
+  width: 700rem;
+  background-color: rgb(95, 94, 94);
+  border-radius: 40rem;
+  z-index: 1000;
+}
+.icon {
+  width: 80rem;
+  position: absolute;
+  bottom: -8rem;
+}
+.icon img {
+  width: 100%;
+}
+.count{
+  position: absolute;
+  top: 0;
+  right: -10rem;
+  width: 36rem;
+  height: 36rem;
+  border-radius: 18rem;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 36rem;
+}
+.price {
+  /* display: flex;
+  align-items: center; */
+  margin-top: 10rem;
+  margin-left: 100rem;
+  color: white;
+  font-size: 40rem;
+  font-weight: bold;
+}
+.price::before {
+  content: '￥';
+  font-size: 20rem;
+}
+.btn {
+  width: 200rem;
+  border:none;
+  border-radius: 40rem;
+  background-color: #FCBF49;
+  font-size: 30rem;
+  color: white;
+}
+.space {
+  /* display: flex;
+  align-items: center; */
+  margin-top: 10rem;
+  margin-left: 100rem;
+  color: rgb(140, 140, 141);
+  font-size: 35rem;
+  font-weight: bold;
+}
+.disable {
+  background-color: #8b8b8a;
+  color: rgb(189, 189, 193);
+}
